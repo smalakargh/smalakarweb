@@ -207,10 +207,10 @@ export default function Carousel({
                 </span>
               </div>
               <div className="p-5">
-                <div className="mb-1 font-black text-lg text-white">
+                <div className="mb-1 font-black text-lg text-[#F3C623]">
                   {item.title}
                 </div>
-                <p className="text-sm text-white">{item.description}</p>
+                <p className="text-sm text-[#b5b2b5]">{item.description}</p>
               </div>
             </motion.div>
           );
@@ -227,7 +227,7 @@ export default function Carousel({
               className={`h-2 w-2 rounded-full cursor-pointer transition-colors duration-150 ${currentIndex % items.length === index
                 ? round
                   ? "bg-white"
-                  : "bg-[#333333]"
+                  : "bg-[#F3C623]"
                 : round
                   ? "bg-[#555]"
                   : "bg-[rgba(51,51,51,0.4)]"

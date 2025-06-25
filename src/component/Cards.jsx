@@ -1,10 +1,17 @@
-import Cobe from './Cobe'
-import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import GithubBtn from '../smComponent/GithubBtn'
-import Slider from './Slider'
+import { useGSAP } from '@gsap/react'
+
 import { useEffect } from 'react'
+
+import Cobe from './Cobe'
+import Slider from './Slider'
 import Textrot from './Textrot'
+
+import GithubBtn from '../smComponent/GithubBtn'
+
+import { ScrollTrigger, ScrambleTextPlugin } from 'gsap/all'
+gsap.registerPlugin(ScrollTrigger, ScrambleTextPlugin)
+
 
 
 function Cards() {
@@ -17,6 +24,15 @@ function Cards() {
                 text: "Let's Connect"
             }
         })
+
+        gsap.from('.facts',{
+          x: -500,
+          opacity:0,
+      scrollTrigger: {
+        trigger: '.facts',
+        start: "top 85%",
+      }
+    })
     },[])
     useEffect(() => {
   const cursorTargets = document.querySelectorAll(".CursorScale");
@@ -43,16 +59,16 @@ function Cards() {
 }, []);
 
   return (
-    <div className='grid [grid-template-columns:repeat(auto-fit,minmax(200px,1fr))] md:grid-cols-2 gap-3 p-7 md:p-10 lg:p-15 md:h-[600px] bg-[#99979a]'>
-      <div className='CursorScale bg-transparent border-[#7b797c] border-[2px] backdrop-blur-3xl rounded-[5px] flex flex-row justify-center items-center '>
+    <div className='grid [grid-template-columns:repeat(auto-fit,minmax(200px,1fr))] md:grid-cols-2 gap-3 p-7 md:p-10 lg:p-15 bg-[#99979a]'>
+      <div className='facts CursorScale bg-transparent border-[#7b797c] border-[2px] backdrop-blur-3xl rounded-[5px] flex flex-row justify-center items-center '>
         <Slider/>
       </div>
       <div className='bg-transparent border-[#7b797c] border-[2px] backdrop-blur-3xl rounded-[5px] relative flex justify-end row-span-2'><Cobe/>
             <p className='connect absolute left-5 bottom-30 lg:bottom-30 lg:left-30 font-sm text-3xl lg:text-5xl font-bold text-transparent bg-gradient-to-r from-blue-600 to-purple-500 bg-clip-text'>Let's Connect </p>
-            <p className='absolute bottom-60 left-15 w-[50%] text-[20px] font-sm text-[#4b494d] font-[700] hidden lg:flex'>" India has the fastest growing developer population on GitHub and is on its way to becoming the largest community of developers in the world by 2028. "</p>
+            <p className='CursorScale absolute bottom-60 left-15 w-[50%] text-[20px] font-sm text-[#4b494d] font-[700] hidden lg:flex'>" India has the fastest growing developer population on GitHub and is on its way to becoming the largest community of developers in the world by 2028. "</p>
             <p className='absolute bottom-10 left-5 lg:left-30 '><GithubBtn/></p>     
       </div>
-      <div className='CursorScale bg-transparent border-[#7b797c] border-[2px] backdrop-blur-3xl rounded-[5px] font-sm'><div><Textrot/></div>
+      <div className='qots CursorScale bg-transparent border-[#7b797c] border-[2px] backdrop-blur-3xl rounded-[5px] font-sm'><div><Textrot/></div>
         <p className='absolute right-9 bottom-4 text-[10px] lg:text-[20px] font-[600] text-transparent bg-gradient-to-r from-blue-600 to-pink-600 bg-clip-text '>By - Supriyo Malakar</p>
       </div>
     </div>

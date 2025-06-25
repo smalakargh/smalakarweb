@@ -10,9 +10,7 @@
     @apply font-sm px-4 py-2 text-white rounded-[9px] cursor-pointer font-[600] flex justify-center items-center flex-row gap-1;
   }
 }
-*{
-  cursor: default;
-}
+
 /*TYPING ANIMATION*/
 .wrapper{
   display: inline-flex;

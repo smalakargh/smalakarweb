@@ -28,7 +28,7 @@ export default function GithubBtn() {
 },[])
   return (
     <div>
-          <button className="CursorScaleBtn cursor-pointer bg-black my-3 hover:bg-white hover:text-black border-[2px dotted] btn-cmn">Github<FaGithub /></button>
+          <button className="CursorScaleBtn cursor-pointer bg-black my-3 hover:bg-white hover:text-black border-[2px dotted] btn-cmn"><a className="flex justify-center items-center gap-1 cursor-pointer" href="https://github.com/smalakargh">Github<FaGithub /></a></button>
     </div>
   )
 }

@@ -29,7 +29,7 @@ export default function LinkedInBtn() {
 
   return (
     <div>
-          <button className="CursorScaleBtn cursor-pointer bg-white text-[#0077b5] my-3 hover:bg-[#0077b5] mx-2 hover:text-white btn-cmn">LinkedIn<BsLinkedin /></button>
+          <button className="CursorScaleBtn cursor-pointer bg-white text-[#0077b5] my-3 hover:bg-[#0077b5] mx-2 hover:text-white btn-cmn"><a className="flex justify-center items-center gap-1 cursor-pointer" href="https://www.linkedin.com/in/supriyomalakar/">LinkedIn<BsLinkedin /></a></button>
 
     </div>
   )

@@ -7,7 +7,7 @@ function Slider() {
   <Carousel
     baseWidth={300}
     autoplay={true}
-    autoplayDelay={4000}
+    autoplayDelay={12000}
     pauseOnHover={true}
     loop={true}
     round={false}

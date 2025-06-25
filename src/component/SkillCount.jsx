@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 function SkillCount() {
     const counter = { value: 0 };
     const targetValue1 = 21;
-    const targetValue2 = 96;
+    const targetValue2 = 730;
     const targetValue3 = 6;
     useGSAP(()=>{
         gsap.to(counter, {
@@ -50,7 +50,7 @@ function SkillCount() {
         <span className="font-[500] text-[9px] md:text-[18px]">Project From Scratch</span>
         </div>
         <div className="flex flex-col items-center"><div className="flex text-[10px] md:text-[20px]"><p className="skillani2 text-3xl md:text-4xl font-[500]">2+</p><p>+</p></div>
-        <span className="font-[500] text-[9px] md:text-[18px]">Weeks of Experience</span>
+        <span className="font-[500] text-[9px] md:text-[18px]">Days of Experience</span>
         </div>
         <div className="flex flex-col items-center"><div className="flex text-[10px] md:text-[20px]"><p className="skillani3 text-3xl md:text-4xl font-[500]">6+</p><p>+</p></div>
         <span className="font-[500] text-[9px] md:text-[18px]">Language</span>
