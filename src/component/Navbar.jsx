@@ -31,7 +31,7 @@ function Navbar() {
 
   return (
     <div className=" bg-transparent backdrop-blur-sm w-[100%] z-1 absolute text-white">
-      <p className="CursorScale smlogo text-3xl md:text-4xl lg:text-5xl font-[Caveat] px-[50px] py-[30px]">
+      <p className="CursorScale smlogo text-3xl md:text-4xl lg:text-5xl font-[Caveat] py-[20px] px-[50px] lg:py-[30px]">
         Smalakar
       </p>
     </div>

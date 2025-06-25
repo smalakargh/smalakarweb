@@ -19,7 +19,7 @@ function CustomCursor() {
     },[]);
   return (
     
-    <div className='followMe fixed top-0 h-[20px] w-[20px] bg-white rounded-full z-100 pointer-events-none mix-blend-difference'></div>
+    <div className='followMe fixed top-0 h-[20px] w-0 lg:w-[20px] bg-white rounded-full z-100 pointer-events-none mix-blend-difference'></div>
 
   )
 }
