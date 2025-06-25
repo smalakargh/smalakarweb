@@ -84,3 +84,14 @@
 }
 
 /*Responsive Of LIVE ANIMATION*/
+
+@media (max-height: 780px) {
+  .CursorScaleAvt{
+    width: 250px;
+  }
+  .AvtWrap{
+    top: 90px;
+    right: 52px;
+  }
+
+}

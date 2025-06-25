@@ -102,7 +102,7 @@ function Landpage() {
       <LinkedInBtn/>
     </div>
     </div>
-    <div className="absolute top-27 right-16 md:right-35 md:top-70 lg:top-45 lg:right-45 shadow-[0_0_20px_rgba(255,0,255,0.6)] rounded-[100%] bg-gradient-to-tl from-blue-600 to-purple-600 animate-border-glow ">
+    <div className="AvtWrap absolute top-27 right-16 md:right-35 md:top-70 lg:top-45 lg:right-45 shadow-[0_0_20px_rgba(255,0,255,0.6)] rounded-[100%] bg-gradient-to-tl from-blue-600 to-purple-600 animate-border-glow ">
       <img className="CursorScaleAvt rounded-[100%] p-[2px] w-[270px] lg:w-[450px]" src="https://avatars.githubusercontent.com/u/171774147?v=4" alt="DeveloperSm" /></div>
     </div>
   )
