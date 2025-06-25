@@ -29,7 +29,7 @@ function App() {
     </div>
     <SkillCount/>
     <Cards/>
-    <GetTouch/>
+    {/* <GetTouch/> */}
     <CustomCursor/>
     <Footer/>
     </>

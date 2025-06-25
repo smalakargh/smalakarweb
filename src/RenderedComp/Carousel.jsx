@@ -8,37 +8,42 @@ import {
   FiLayers,
   FiLayout,
 } from "react-icons/fi";
+import { AiFillBug } from "react-icons/ai";
+import { LuBicepsFlexed } from "react-icons/lu";
+import { BsCupHotFill } from "react-icons/bs";
+import { FaCode } from "react-icons/fa";
+import { FcIdea } from "react-icons/fc";
 
 const DEFAULT_ITEMS = [
   {
-    title: "Text Animations",
-    description: "Cool text animations for your projects.",
+    title: "Bug",
+    description: "The term “computer bug” actually came from a real insect! In 1947, Grace Hopper and her team found a moth stuck in the hardware of the Harvard Mark II computer. They taped it into their logbook and wrote, “First actual case of bug being found”.",
     id: 1,
-    icon: <FiFileText className="h-[16px] w-[16px] text-white" />,
+    icon: <AiFillBug className="h-[16px] w-[16px] text-white" />,
   },
   {
-    title: "Animations",
-    description: "Smooth animations for your projects.",
+    title: "Calisthenics",
+    description: "Since I’m a karate practitioner, starting calisthenics in 2019 felt like a natural extension—its deep focus on the mind-muscle connection not only sharpened my concentration but also helped reduce stress, turning every session into both a physical and mental reset.",
     id: 2,
-    icon: <FiCircle className="h-[16px] w-[16px] text-white" />,
+    icon: <LuBicepsFlexed className="h-[16px] w-[16px] text-white" />,
   },
   {
-    title: "Components",
-    description: "Reusable components for your projects.",
+    title: "Tea Lover",
+    description: "I'm a developer who powered through this portfolio with 3.5 litres of tea as fuel and a generous serving of push-ups as stress relief—equal parts caffeine and calisthenics.",
     id: 3,
-    icon: <FiLayers className="h-[16px] w-[16px] text-white" />,
+    icon: <BsCupHotFill className="h-[16px] w-[16px] text-white" />,
   },
   {
-    title: "Backgrounds",
-    description: "Beautiful backgrounds and patterns for your projects.",
+    title: "Programming",
+    description: "There are over 700 programming languages in existence today. So if you ever feel overwhelmed choosing one, just remember—you’re not alone in the buffet of brackets and semicolons.",
     id: 4,
-    icon: <FiLayout className="h-[16px] w-[16px] text-white" />,
+    icon: <FaCode className="h-[16px] w-[16px] text-white" />,
   },
   {
-    title: "Common UI",
-    description: "Common UI components are coming soon!",
+    title: "Root",
+    description: "The first computer programmer was a woman named Ada Lovelace, who wrote an algorithm for Charles Babbage’s Analytical Engine back in the 1800s. That’s right—coding has roots that go back nearly two centuries!",
     id: 5,
-    icon: <FiCode className="h-[16px] w-[16px] text-white" />,
+    icon: <FcIdea  className="h-[16px] w-[16px] text-white" />,
   },
 ];
 

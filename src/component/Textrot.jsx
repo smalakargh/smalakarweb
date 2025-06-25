@@ -8,7 +8,7 @@ function Textrot() {
         <ambientLight/>
         <Text
           position = {[0,0,0]}
-          fontSize = {2}
+          fontSize = {1}
           font='./fonts/Poppins-Bold.ttf'
           color="#616161"
           anchorX="center"
@@ -20,10 +20,10 @@ function Textrot() {
           bevelThickness={0.1}
           height={0.3}
         >
-            Coding Is An Emotion
+            " Coding Is An Emotion "
         </Text>
       <meshDepthMaterial/>
-      <OrbitControls/>
+      <OrbitControls makeDefault/>
     </Canvas>
   )
 }

@@ -53,7 +53,7 @@ function Cards() {
             <p className='absolute bottom-10 left-5 lg:left-30 '><GithubBtn/></p>     
       </div>
       <div className='CursorScale bg-transparent border-[#7b797c] border-[2px] backdrop-blur-3xl rounded-[5px] font-sm'><div><Textrot/></div>
-        <p className='absolute right-9 bottom-4 font-[600] text-transparent bg-gradient-to-r from-blue-600 to-pink-600 bg-clip-text '>By - Supriyo Malakar</p>
+        <p className='absolute right-9 bottom-4 text-[10px] lg:text-[20px] font-[600] text-transparent bg-gradient-to-r from-blue-600 to-pink-600 bg-clip-text '>By - Supriyo Malakar</p>
       </div>
     </div>
   )
