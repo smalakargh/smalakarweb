@@ -6,6 +6,7 @@ import Footer from './component/Footer'
 import GetTouch from './component/GetTouch'
 import CustomCursor from './component/CustomCursor'
 import HeroSec from './component/HeroSec'
+import Skip from './smComponent/Skip'
 
 function App() {
   const lenis = useLenis();
@@ -18,6 +19,7 @@ function App() {
       <Cards/>
       <GetTouch/>
       <CustomCursor/>
+      <Skip/>
       <Footer/>
     </>
   )
