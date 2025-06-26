@@ -3,15 +3,13 @@ import { useGSAP } from '@gsap/react'
 import { useEffect } from 'react'
 
 
-// import ScrambleTextPlugin from 'gsap/ScrambleTextPlugin'
 import { TextPlugin } from "gsap/TextPlugin";
 import Particles from './particle';
 import GithubBtn from '../smComponent/GithubBtn';
 import LinkedInBtn from '../smComponent/LinkedInBtn';
+import landingPageData from '../data/mydata';
 
 gsap.registerPlugin(TextPlugin);
-// gsap.registerPlugin(ScrambleTextPlugin);
-
 
 function HeroSec() {
     useGSAP(()=>{
@@ -116,7 +114,7 @@ function HeroSec() {
                        </div>
             {/* TypeWriter */}
 
-            <p className=' text-[14px] md:text-[18px]' >I am a skilled front-end developer experienced in creating visually stunning and user-friendly websites and applications. I use UI/UX design principles to deliver high-quality products that meet client expectations.</p>
+            <p className=' text-[14px] md:text-[18px]' >{landingPageData.about}</p>
             <div className='flex'>
               <GithubBtn/>
               <LinkedInBtn/>

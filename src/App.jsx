@@ -1,3 +1,4 @@
+import { ReactLenis, useLenis } from 'lenis/react'
 import Navbar from './component/Navbar'
 import SkillCount from './component/SkillCount'
 import Cards from './component/Cards'
@@ -7,8 +8,10 @@ import CustomCursor from './component/CustomCursor'
 import HeroSec from './component/HeroSec'
 
 function App() {
+  const lenis = useLenis();
   return (
     <>
+      <ReactLenis root />
       <Navbar/>
       <HeroSec />
       <SkillCount/>
