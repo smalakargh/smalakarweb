@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
 import { Renderer, Camera, Geometry, Program, Mesh } from "ogl";
-import Landpage from "./Landpage";
 
 const defaultColors = ["#ffffff", "#ffffff", "#ffffff"];
 
@@ -226,7 +225,6 @@ const Particles = ({
     <div
       ref={containerRef}
       className={`relative w-full h-full ${className}`}>
-        <Landpage/>
     </div>
   );
 };
