@@ -10,7 +10,7 @@ function Skip() {
     useEffect(()=>{
         let btn = document.querySelector(".SkipBtn");
     btn.addEventListener('click',()=>{
-        gsap.to(window, { duration: 2, scrollTo: ".NavSec" });
+        gsap.to(window, { duration: 1, scrollTo: ".NavSec" });
     })
     
     },[])
