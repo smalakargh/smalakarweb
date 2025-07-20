@@ -7,6 +7,7 @@ import GetTouch from './component/GetTouch'
 import CustomCursor from './component/CustomCursor'
 import HeroSec from './component/HeroSec'
 import Skip from './smComponent/Skip'
+import ComingSoon from './smComponent/Coming-soon'
 
 function App() {
   const lenis = useLenis();
@@ -17,6 +18,7 @@ function App() {
       <HeroSec />
       <SkillCount/>
       <Cards/>
+      <ComingSoon />
       <GetTouch/>
       <CustomCursor/>
       <Skip/>

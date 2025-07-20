@@ -1,4 +1,3 @@
-import { div } from 'three/tsl'
 import LiquidChrome from '../RenderedComp/LastBox'
 
 function GetTouch() {
